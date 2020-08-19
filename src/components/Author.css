@@ -1,0 +1,20 @@
+.author-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+} 
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.handle {
+  color: #8899a6;
+  margin-left: 5px;
+}
