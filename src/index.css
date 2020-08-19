@@ -1,10 +1,15 @@
+/* body {
+  margin: 0 auto;
+} */
+
 .tweet {
   display: flex;
   width: 564px;
   min-height: 68px;
+  margin: 50px auto;
   padding: 10px;
   font-family: "Helvetica", arial, sans-serif; 
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   border: 1px solid #ccc;
 }
@@ -12,19 +17,31 @@
 .avatar {
   width: 48px;
   height: 48px;
-  border-radius: 5px;
+  border-radius: 50%;
   margin-right: 10px; 
+}
+
+
+.author-container {
+  display: flex;
+  align-items: center;
+} 
+
+.author {
+  display: flex;
+  align-items: center;
 }
 
 .name {
   font-weight: bold;
-  margin-bottom: .5em;
-  margin-right: .3em;
+  margin-right: 2px;
+  /* margin-bottom: .5em; */
+  /* margin-right: .3em; */
 }
 
 .handle {
   color: #8899a6;
-  font-size: 13px;
+  margin-left: 5px;
 }
 
 .time {
@@ -32,9 +49,8 @@
   color: #8899a6;
 }
 
-.time::before {
-  content: "\00b7";
-  padding-right: .3em;
+.message {
+  margin-top: 5px;
 }
 
 .buttons {
@@ -59,3 +75,5 @@
   font-size: 16px; 
   font-weight: bold;
 }
+
+.primary-color {color: #46b8f8}
