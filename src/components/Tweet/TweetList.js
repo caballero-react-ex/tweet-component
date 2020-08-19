@@ -1,12 +1,21 @@
 import React from 'react';
 import Tweet from './Tweet';
-import tweetData from '../../data/TweetData';
+import {userData, tweetData } from '../../data/TweetData';
 
 function TweetList() {
   return (
-    <Tweet tweet={tweetData} />
+    <div>
+      {tweetData.map(data => (
+        <Tweet 
+          data={data} 
+          user={userData}
+          key={data.timestamp}
+        />
+      ))}
+    </div>
   )
 }
 
 export default TweetList;
 
+// <Tweet tweet={tweetData} /> 

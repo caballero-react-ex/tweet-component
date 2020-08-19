@@ -14,20 +14,30 @@ import OptionsBtn from '../Buttons/OptionsBtn';
 import './Tweet.css';
 
 
-function Tweet({ tweet }) { 
+function Tweet({ data, user }) { 
+  // const messages = data.tweets.map(tweet => 
+  //   tweet.message,
+  //   // console.log(tweet.message)
+  // );
+  
+  // console.log(messages);
+  
+
   return (
     <div className="tweet"> 
-      <Avatar hash={tweet.avatar} />
+      <Avatar hash={user.avatar} />
       <div className="float">
         <div className="author-container">
-          <Author author={tweet.author} /> 
-          <Time time={tweet.timestamp} />
+          <Author user={user} /> 
+          <Time time={data.timestamp} />
         </div>
-        <Message text={tweet.message} /> 
+        <Message 
+          text={data.message}
+        />
         <div className="buttons">
           <ReplyBtn />
-          <RetweetBtn count={tweet.retweets}/>
-          <LikeBtn count={tweet.likes} />
+          <RetweetBtn count={data.retweets}/>
+          <LikeBtn count={data.likes} />
           <OptionsBtn />
         </div>
       </div>

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import VerifiedIcon from './Buttons/VerifiedIcon';
 import './Author.css';
 
-function Author({ author }) {
-  const { name, handle, verified } = author;  
+function Author({user}) {
+  const { name, handle, verified } = user;  
   return (
     <span className="author">
       <span className="name">{name}</span>
@@ -18,7 +18,7 @@ function Author({ author }) {
 // propType validation
 // ---------------------------
 Author.propTypes = {
-  author: PropTypes.shape({
+  user: PropTypes.shape({
     name: PropTypes.string.isRequired,
     handle: PropTypes.string.isRequired,
     verified: PropTypes.bool.isRequired

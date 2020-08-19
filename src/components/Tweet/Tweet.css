@@ -2,10 +2,15 @@
   display: flex;
   width: 564px;
   min-height: 68px;
-  margin: 50px auto;
+  margin: 0px auto;
   padding: 10px;
   font-family: "Helvetica", arial, sans-serif; 
   font-size: 16px;
   line-height: 18px;
   border: 1px solid #ccc;
+  border-bottom: 0;
+}
+
+.tweet:last-of-type {
+  border-bottom: 1px solid #ccc;
 }
