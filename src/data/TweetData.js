@@ -1,14 +1,22 @@
 const userData = {
   avatar: "epictetus-pic.jpg",
+  bg: "epictetus-bg.jpg",
   handle: "stoic-philosopher",
   name: "Epictetus", 
   verified: true,
+  description: "Stoic, sclave, citizen",
+  location: "Athens",
+  web: "dailystoics.com",
+  born: "28 August 200AC",
+  joined: "March 2008",
+  following: 1023,
+  followers: 384
 }
 
 const tweetData = [
   { 
     message: "Wealth consists not in having great possessions, but in having few wants...",
-    likes: 7, 
+    likes: 70000, 
     retweets: 12,
     timestamp: "2020-08-10 21:24:37" ,
   },

@@ -1,8 +1,6 @@
 .tweet {
   display: flex;
-  width: 564px;
   min-height: 68px;
-  margin: 0px auto;
   padding: 10px;
   font-family: "Helvetica", arial, sans-serif; 
   font-size: 16px;

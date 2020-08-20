@@ -2,3 +2,30 @@
 .primary-color {color: #46b8f8}
 .grey-color-1 {color: #aab8c2;}
 .grey-color-2 {color: #8899a6;}
+
+.sans-font {font-family: sans-serif;}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.mr {
+  margin-right: 5px;
+}
+.mr-1 { margin-right: 10px;}
+.mr-2 { margin-right: 20px;}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #46b8f8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
