@@ -9,7 +9,7 @@ function Author({user}) {
   return (
     <span className="author">
       <span className="name">{name}</span>
-      {verified ? <VerifiedIcon/> : null }
+      {verified ? <VerifiedIcon size={22} color={"red"}/> : null }
       <span className="handle">@{handle}</span>
     </span>
   );

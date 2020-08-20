@@ -20,12 +20,11 @@ function Tweet({ data, user }) {
   //   // console.log(tweet.message)
   // );
   
-  // console.log(messages);
   
 
   return (
     <div className="tweet"> 
-      <Avatar hash={user.avatar} />
+      <Avatar hash={user.avatar} size={60}/>
       <div className="float">
         <div className="author-container">
           <Author user={user} /> 
