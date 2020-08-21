@@ -7,7 +7,7 @@ function Username() {
   return (
     <div className="flex">
       <span style={{
-        fontSize: "24px", 
+        fontSize: "22px", 
         fontWeight: "bold",
         marginRight: "3px"
       }}
