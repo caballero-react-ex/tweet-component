@@ -10,7 +10,8 @@ const userData = {
   born: "28 August 200AC",
   joined: "March 2008",
   following: 1023,
-  followers: 384
+  followers: 384,
+  totalTweets: 1292,
 }
 
 const tweetData = [
@@ -21,7 +22,7 @@ const tweetData = [
     timestamp: "2020-08-10 21:24:37" ,
   },
   { 
-    message: "Don't explain your philosophy. Embody it.",
+    message: "To accuse others for one's own misfortune is a sign of want of education. To accuse oneself shows that one's education has begun. To accuse neither oneself nor others shows that one's education is complete.",
     likes: 15, 
     retweets: 21,
     timestamp: "2020-08-08 21:24:37" ,
@@ -31,6 +32,24 @@ const tweetData = [
     likes: 31, 
     retweets: 14,
     timestamp: "2020-08-06 21:24:37" ,
+  },
+  { 
+    message: "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+    likes: 531, 
+    retweets: 48,
+    timestamp: "2020-08-02 21:24:37" ,
+  },
+  { 
+    message: "Other people's views and troubles can be contagious. Don't sabotage yourself by unwittingly adopting negative, unproductive attitudes through your associations with others.",
+    likes: 115, 
+    retweets: 212,
+    timestamp: "2020-07-21 21:24:37" ,
+  },
+  { 
+    message: "Don't explain your philosophy. Embody it.",
+    likes: 321, 
+    retweets: 94,
+    timestamp: "2020-07-17 21:24:37" ,
   },
 ]
 
